@@ -1,0 +1,117 @@
+html {
+    background-color: #FFFFFF;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    flex-wrap:nowrap;
+}
+
+h1{
+    color:darkolivegreen;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size:300%;
+}
+
+h3{
+    font-family:initial;
+    font-size: 40px;
+    color: #af3636;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+
+.options button {
+    background-color:aquamarine;
+    border: 4px solid;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(23, 23, 27);
+    margin-bottom: 30px;
+    }
+
+#playerlabel {
+        font-size: 30px;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:darkgreen;
+        padding-left: 8px;
+        margin-left: 2px;
+    }
+    
+#computerlabel {
+        font-size: 30px;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:darkgreen;
+        padding-left: 25px;
+        margin-left: 45px;
+    }
+
+
+
+.scores{
+    display: flex;
+    flex-direction: row;
+}
+
+.scores div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 50px;
+        border: 5px solid rgb(27, 27, 31);
+        border-style:dotted;
+        border-color:#af3636;
+        margin-top: 3px;
+        margin-bottom: 20px;
+        margin-right: 45px; 
+        margin-left: 35px;
+        font-weight:bold;
+        font-size: 20px; 
+}
+
+.resultlabel {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkgreen;
+    
+}
+
+#resulttext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    border: 5px solid rgb(27, 27, 31);
+    border-color: #af3636;
+    border-style: dotted;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    }
+
+
+#reset {
+        width: 150px;
+        height: 70px;
+        margin-top: 20px;
+        background-color:aquamarine;
+        color: #d45069;
+        font-size: 20px;
+        }
+
+
+
+
